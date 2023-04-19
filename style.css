@@ -29,8 +29,8 @@ nav {
 }
 .main-menu ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
-    
 }
 
 .main-menu ul li{
@@ -138,9 +138,6 @@ nav {
     display: inline-block;
     border-radius: 5px;
 }
-.gallerys {
-    
-}
 .gallery {
     display: flex;
     justify-content: space-between;
@@ -240,7 +237,7 @@ nav {
 .footer {
     background-color: #FE6347;
 }
-
+/*---Footer part---*/
 .footer p{
     color: #ffffff;
     text-transform: capitalize;
